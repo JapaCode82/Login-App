@@ -5,30 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
     <title>JapaCode</title>
+
     <style>
         .img{
-            height: 50px;
-            width: 50px;
+            height: 120px;
+            width: 120px;
+          
         }
+
+        .img-rodape{
+            height: 30px;
+            width: 110px;
+            padding: 10px;
+        }
+        
+     body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+     }
+     
+     div{
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 60px;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+     }
+
+     input{
+        padding: 10px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+       
+     }
+
+     button{
+        background-color: dodgerblue;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+     }
+
+     button:hover{
+        background-color: deepskyblue;
+        cursor: pointer; 
+     }
+
+     .texto{
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       color: dodgerblue;
+       font-size: 10px;
+       cursor: pointer;
+        
+
+     }
     </style>
 </head>
 
 <body>
+    
     <header>
+        <div>
         <img src="Logo-Ofc2.png" class="img" id="Logo-Ofc2">
-    </header>
-    <div>
+   
+    <main>
         <h1>JapaCode</h1>
         <input type="text" placeholder="Nome">
         <br> <br>
         <input type="password" placeholder="senha">
         <br> <br>
         <button>Enviar</button>
+        <br> <br>
+
         <footer>
-            <img src="JapaCode.png" class="img" id="JapaCode-png" >
+            <img src="JapaCode.png" class="img-rodape" id="JapaCode-png" >
+            <br> <br> 
+                <h6 class="texto">Esqueceu sua senha?</h6>
+           
+        
         </footer>
-       
     </div>
-    
+</main>
+</header>
 </body>
 </html>
